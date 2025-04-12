@@ -11,10 +11,11 @@
     <style>
         body {
             font-family: 'Inter', sans-serif;
+            background-color: #ffffff;
         }
-        .bg-gradient-custom {
-            background: linear-gradient(to bottom, #6ee7b7, #3b82f6); /* Tailwind colors: from emerald-300 to blue-500 */
-        }
+        /* .bg-gradient-custom {
+            background: linear-gradient(to bottom, #EDE6E2, #3b82f6); /* Tailwind colors: from emerald-300 to blue-500 */
+        /* } */ 
         .text-gradient-custom {
             background: linear-gradient(to right, #f43f5e, #8b5cf6); /* Tailwind colors: from rose-500 to violet-500 */
             -webkit-background-clip: text;
@@ -30,17 +31,25 @@
             padding-left: 1rem;
             padding-right: 1rem;
         }
+
+        /* header {
+            background-color: #619cfa; /* Tailwind's bg-blue-500 */
+            /* color: white; */
+            /* padding: 1rem 0; */
+            /* text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); Tailwind's shadow-md */
+        /* } */ 
     </style>
 </head>
 <body class="bg-gradient-custom text-white">
     <header class="container mx-auto px-4 py-6 flex justify-between items-center">
-        <h1 class="text-2xl font-bold text-white">My Website</h1>
+        <!-- <h1 class="text-2xl font-bold text-black">My Website</h1> -->
         <nav>
             <ul class="flex space-x-6">
-                <li><a href="#home" class="hover:text-gray-200 transition duration-300">Home</a></li>
-                <li><a href="#about" class="hover:text-gray-200 transition duration-300">About</a></li>
-                <li><a href="#portfolio" class="hover:text-gray-200 transition duration-300">Portfolio</a></li>
-                <li><a href="#contact" class="hover:text-gray-200 transition duration-300">Contact</a></li>
+                <li><a href="#home" class="hover:text-white transition duration-300 text-black">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-200 transition duration-300 text-black">About</a></li>
+                <li><a href="#portfolio" class="hover:text-gray-200 transition duration-300 text-black">Portfolio</a></li>
+                <li><a href="#contact" class="hover:text-gray-200 transition duration-300 text-black">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -49,7 +58,7 @@
         <section id="home" class="container-center">
             <div class="text-center" style="max-width: 90%;">
                 <h2 class="text-4xl font-bold text-gradient-custom mb-4">Hi, I'm Bapan Debnath</h2>
-                <p class="text-lg text-gray-200 mb-6">I'm a passionate explorer with a love for discovering amazing places. My journey is fueled by a desire to experience the world's diverse cultures and landscapes, resulting in unique and impactful adventures. I strive to bring a fresh perspective to every journey, ensuring that the final result not only meets my expectations but also leaves a lasting impression.</p>
+                <p class="text-lg text-black mb-6 text-justify text-black">I'm a passionate explorer with a love for discovering amazing places. My journey is fueled by a desire to experience the world's diverse cultures and landscapes, resulting in unique and impactful adventures. I strive to bring a fresh perspective to every journey, ensuring that the final result not only meets my expectations but also leaves a lasting impression.  Here's my another <a href="page2.html" class="text-black hover:text-white transition duration-300 text-black">link</a>.</p>
                 <button class="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 px-6 rounded-full transition duration-300">
                     Learn More
                 </button>
@@ -67,7 +76,7 @@
                         <img src="https://plus.unsplash.com/premium_photo-1663013021590-c3d2ff59030b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="About Bapan Debnath" width="400" height="300" class="rounded-lg shadow-xl max-w-full h-auto">
                     </div>
                     <div class="md:w-1/2 text-left order-1 md:order-none">
-                        <p class="text-lg text-gray-200 mb-6 text-justify">
+                        <p class="text-lg text-gray-200 mb-6 text-justify text-black">
                             Here's a bit about me. I'm passionate about exploring new horizons and immersing myself in the rich tapestry of global cultures. From savoring exotic cuisines to navigating bustling markets, I love experiencing the world through its diverse offerings.
                             I've been working as a traveler for several years, and I'm always eager to learn new things and embrace the unexpected. My journey in this field has been incredibly rewarding, allowing me to discover hidden gems, forge lifelong friendships, and connect with people from all walks of life. I am driven by the challenge of navigating unfamiliar territories, adapting to new environments, and find immense satisfaction in the process of immersing myself in the beauty and wonder of our world.
                         </p>
